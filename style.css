@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(236, 236, 236);
+    font-family: 'Georama', sans-serif;
+    
+}
+
+.container{
+    max-width: 1000px;
+    background-color:rgba(148, 241, 184, 0.76);
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.container img{
+    height: 115px;
+    width: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    float: left;
+    margin: 5px 0px 0px 10px;                
+}
+
+.container .bio{
+    float: left;
+    padding: 30px;
+    color:rgb(255, 0, 98);
+}
+
+header h3{
+    color:rgb(0, 0, 0);
+}
+span{
+    color:rgb(0, 0, 0);
+    font-size: 21px;
+}
+
+
+.container .contract{
+    float: right;
+    padding: 35px;
+    line-height: 2;
+    font-weight: bold;
+    color:rgb(255, 0, 98);                
+}
+
+.container .contract a{
+    text-decoration: none;                     
+}
+
+.container .contract a:hover{
+    text-decoration: underline;                    
+}
+
+.div_clear{
+    clear: both;
+}
+
+.hr1{
+    border-top: 3px solid black;
+    width: 100%;
+    margin: 10px auto;
+}
+
+/*---end container---*/
+
+.left{
+    float: left;
+    width: 30%;
+    color: rgb(255, 0, 98);
+    margin: 14px 0px;
+}
+.right{
+    float: left;
+    width: 70%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+.hr2{
+    margin: 10px auto;
+    border-top: 1px solid black;
+}
+
+h3, h5{
+    line-height: 1.5;
+    color:rgb(255, 0, 98);
+}
+
+.edu_left{
+    float: left;
+    width: 45%;
+}
+
+.edu_right{
+    float: right;
+    width: 45%;
+}
+
+footer{
+    color:rgb(255, 0, 98);
+    text-align: right;
+    background-color: black;
+    padding: 15px;    
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer span{
+    text-align: right;
+    color:rgb(255, 0, 98);
+    font-size: small;      
+}
+
+
+footer p a{
+    color: rgb(255, 0, 98);
+    text-decoration: none;    
+    margin: 0px 30px;
+    float: left;
+}
+
+
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
